@@ -1,0 +1,38 @@
+<html>
+     <head>
+          <title>
+               UBER DRIVER DASHBOARD
+          </title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+     </head>
+
+     <body>
+          <div>
+               <button id="sign-out"> Sign Out </button>
+               <button id="payout"> Payout </button>
+               <input id="recieverEmail" type="text" placeholder="Paypal Reciever Email....">
+               <h3>Balance: </h3><h3 id="balance"></h3>
+          </div>
+
+          <table class="table table-striped">
+               <thread>
+                    <tr>
+                         <th>Date</th>
+                         <th>Distance</th>
+                         <th>Money</th>
+                         <th>Payment Status</th>
+                    </tr>
+               </thread>
+               <tbody id="rideHistoryTable"></tbody>
+          </table>
+     </body>
+
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"/></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+     <script src="firebase/main.js"></script>
+</html>
